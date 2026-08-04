@@ -606,7 +606,7 @@ Example JSON output:
   "profile": {
     "fabric": "ethernet",
     "deployment": "sriov",
-    "multirail": "true"
+    "multirail": true
   },
   "generatedFiles": [
     "./deployments/network-operator/nic-cluster-policy.yaml",
