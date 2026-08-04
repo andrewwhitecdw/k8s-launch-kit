@@ -552,7 +552,7 @@ In heterogeneous clusters, discovery produces multiple node groups. Use `--group
 ```bash
 l8k generate --user-config ./config.yaml \
     --fabric infiniband --deployment-type sriov --multirail \
-    --group group-0 \
+    --groups group-0 \
     --save-deployment-files ./deployments
 ```
 
