@@ -999,6 +999,7 @@ nvIpam:
   - subnet: 192.168.18.0/24
     gateway: 192.168.18.1
   - subnet: 192.168.19.0/24
+    gateway: 192.168.19.1
 sriov:
   ethernetMtu: 9000
   infinibandMtu: 4000
