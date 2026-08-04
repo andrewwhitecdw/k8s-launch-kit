@@ -263,7 +263,7 @@ Common Flags:
 
 Discovery Flags:
       --collapse-nic-rails           Advertise one rail per NIC: collapse a NIC's multi-plane PFs to its master PF, keeping a rail per port only for NICs whose VPD model is genuinely dual-port ("2-port"/"Dual-port"). Set to false to keep the legacy one-rail-per-PF behaviour (dev setups). (default true)
-      --discover-cluster-config      Deploy a thin Network Operator profile to discover cluster capabilities
+      --discover-cluster-config      Bootstrap a private NIC Configuration Daemon to discover cluster capabilities
       --save-cluster-config string   Save discovered cluster configuration to the specified path (defaults to --user-config path if set, otherwise ./cluster-config.yaml)
 
 Profile Selection Flags:
