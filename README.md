@@ -233,7 +233,7 @@ Examples:
     --network-operator-release 26.7 --deploy --output json --yes
 
   # Dry-run: preview what would be deployed
-  l8k --user-config cluster-config.yaml --spectrum-x --deploy \
+  l8k --user-config cluster-config.yaml --spectrum-x RA2.3 --deploy \
     --dry-run --output json
 
   # Get tool capabilities as JSON (for AI agents)
