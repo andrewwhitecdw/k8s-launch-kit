@@ -160,9 +160,10 @@ docker run --net=host \
 K8s Launch Kit (l8k) is a CLI tool for deploying and managing NVIDIA cloud-native solutions on Kubernetes. The tool helps provide flexible deployment workflows for optimal network performance with SR-IOV, RDMA, and other networking technologies.
 
 ### Discover Cluster Configuration
-Deploy a minimal Network Operator profile to automatically discover your cluster's
-network capabilities and hardware configuration by using --discover-cluster-config.
-This phase can be skipped if you provide your own configuration file by using --user-config.
+Bootstrap a private NIC Configuration Daemon into the `nvidia-k8s-launch-kit`
+namespace to automatically discover your cluster's network capabilities and
+hardware configuration by using --discover-cluster-config. This phase can be
+skipped if you provide your own configuration file by using --user-config.
 This phase requires --kubeconfig to be specified.
 
 Discovery fills missing profile settings from the detected hardware and built-in
