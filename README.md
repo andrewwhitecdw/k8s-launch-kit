@@ -624,7 +624,7 @@ Example JSON output:
 Preview what would be deployed without making changes:
 
 ```bash
-l8k generate --user-config ./config.yaml --spectrum-x --deploy \
+l8k generate --user-config ./config.yaml --spectrum-x RA2.3 --deploy \
     --dry-run --output json --kubeconfig ~/.kube/config
 ```
 
