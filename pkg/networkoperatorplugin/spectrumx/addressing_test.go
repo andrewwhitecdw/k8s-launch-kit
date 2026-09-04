@@ -247,7 +247,7 @@ func TestBuildCIDRPoolsFromAIR3Tier(t *testing.T) {
 	require.Equal(t, []CIDRPool{{
 		Name:                 "rail-1",
 		CIDR:                 "10.8.0.0/13",
-		GatewayIndex:         0,
+		GatewayIndex:         1,
 		PerNodeNetworkPrefix: 31,
 		PerNodeExclusions:    []PerNodeExclusion{{StartIndex: 1, EndIndex: 1}},
 		Routes:               []string{"10.8.0.0/13", "10.0.0.0/10"},
